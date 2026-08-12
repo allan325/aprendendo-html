@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>          
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site </title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+     <header>
+        <h1>  Primeiro site </h1> 
+        <p> meus gostos </p>
+        <nav>
+            <a href="#sobre">Sobre</a> <br>
+            <a href="#filme">filme</a> <br>
+            <a href="#anime">anime</a> <br>
+            <a href="#serie">serie</a>
+        </nav>
+     </header>
+
+     <maain>
+        <section id="sobre">
+            <h1> sobre </h1>
+            <p> Meu nome é Allan, tenho 18 anos e vou mostra meus filmes,animes e série favoritas </p>
+            
+        </section>
+
+        <section id="filme">
+            <h2>Meu top 4 filmes</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHp3rGlPxP1rDEKbmfFAzxLNvWICM9shq-_5Hil39gRg&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVVIIMGVSKrzLqsx0hFDJkwxdcg0jSdCHDBkOVEu2sw&s=10">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJbwp_dZ2vvVc2YeD_jyDyUfLVsbvXff2HS1AutISVA&s=10">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDs2QwxYbuyH1DhyRme3D6CgNs961AJr6IL1uq-H7-gw&s=10">
+
+        </section> 
+
+        <section id="anime">
+            <h3>Meu top 4 animes </h3>
+
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTDRejLIiIG9fttZkdvfrxMNn_64jgsVnP83ZmC1Zkg&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2XdwHUk0bbqfwPmsxtGAK4VxbAg45T4VuF2PDcASTg&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYwY12mnQ4o2D51taXncJf2LGQ-SX4Y63cStG5aZHyA&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF-K4_0tIgDWOWLHxekBuVIFNK0iCDV8HgLraqe7huHA&s=10"> 
+            
+        </section>
+
+        <section id="serie">
+            <h4>Meu top 4 série </h4>
+
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUEv8_o66u1WxHGe8EQidhoiRkDrPouLAYP8LTKc6eTg&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBQrPapPlAFex4b_n18Nvbls_Hd_-L4Xn-w-aQpyeXw&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1hxUzCbtg8LhI_jCl5-lEPsLFgA7ZUlD8BMWfTewTig&s=10"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOs_GzGxZUxRj9TcC5HKuD1dAa7epALSn-aK1SS30Uw&s=10"> 
+            
+            
+        </section>
+        <section id="serie">
+            <h2> rank das serie </h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>filmes</th>
+                        <th>animes</th>
+                        <th>serie</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>seven</th>
+                        <th>gash bell</th>
+                        <th>brooklyn nine-nine  </th>
+
+                    </tr>
+                    <tr>
+                        <th>o enigma de outro mundo</th>
+                        <th>hxh</th>
+                        <th>breaking bad</th>
+                    </tr>
+                    <tr>
+                        <th> stay </th>
+                        <th>mob </th>
+                        <th>mindhunter</th>
+                    </tr>
+                    <tr>
+                        <th>o fantasma do paraiso</th>
+                        <th> dr.stone </th>
+                        <th>Grimm - Contos de Terror</th>
+                    </tr>   
+                </tbody>
+            </table>
+        </section>
+
+
+        <section  id="sei la">
+            <h2> formulario para colocar o seu top 4 serie,filmes,anime </h2>
+
+            <form>
+                <p>
+                    <label for="nome-form">nome: </label>
+                    <input type="text" id="for-form" name="nome-form" required input>
+                </p>
+                <p>
+                    <label for="idade">Idade</label>
+                    <input type="id">
+
+                </p>
+            </form>
+        </section>
+     </maain>
+     <footer>
+        <p>
+            &copy; 2026 allan
+        </p>
+     </footer>
+</body>
+</html>
