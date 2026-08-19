@@ -92,19 +92,32 @@
         </section>
 
 
-        <section  id="sei la">
+    <section  id="formulario">
             <h2> formulario para colocar o seu top 4 serie,filmes,anime </h2>
 
             <form>
                 <p>
                     <label for="nome-form">nome: </label>
-                    <input type="text" id="for-form" name="nome-form" required input>
+                    <input type="text" id="nome-form" name="nome-form" required>
                 </p>
                 <p>
                     <label for="idade">Idade</label>
-                    <input type="id">
-
+                    <input type="number" id="idade" name="idade" min="0">
                 </p>
+                <p>
+                    <label for="audiovisual">audiovisual:</label>
+                    <select id="audiovisual" name="audiovisual">
+                        <option value="">Selecione</option>
+                        <option value="">anime</option>
+                        <option value="amadora">serie</option>
+                        <option value="esportiva">filme</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="observacao">Observação:</label><br>
+                    <textarea id="observacao" name="observacao" rows="5" cols="30"></textarea>
+                </p>
+                <button type="submit">Cadastrar</button>
             </form>
         </section>
      </maain>
