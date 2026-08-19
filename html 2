@@ -27,7 +27,7 @@
 
         <section id="filme">
             <h2>Meu top 4 filmes</h2>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHp3rGlPxP1rDEKbmfFAzxLNvWICM9shq-_5Hil39gRg&s=10"> 
+             <img src="https://cantodosclassicos.com/wp-content/uploads/2017/01/23012017-the-thing-enigma-de-outro-mundo-3.jpg"> 
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVVIIMGVSKrzLqsx0hFDJkwxdcg0jSdCHDBkOVEu2sw&s=10">
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJbwp_dZ2vvVc2YeD_jyDyUfLVsbvXff2HS1AutISVA&s=10">
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDs2QwxYbuyH1DhyRme3D6CgNs961AJr6IL1uq-H7-gw&s=10">
@@ -35,7 +35,7 @@
         </section> 
 
         <section id="anime">
-            <h3>Meu top 4 animes </h3>
+            <h2>Meu top 4 animes </h2>
 
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTDRejLIiIG9fttZkdvfrxMNn_64jgsVnP83ZmC1Zkg&s=10"> 
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2XdwHUk0bbqfwPmsxtGAK4VxbAg45T4VuF2PDcASTg&s=10"> 
@@ -45,7 +45,7 @@
         </section>
 
         <section id="serie">
-            <h4>Meu top 4 série </h4>
+            <h2>Meu top 4 série </h2>
 
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUEv8_o66u1WxHGe8EQidhoiRkDrPouLAYP8LTKc6eTg&s=10"> 
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBQrPapPlAFex4b_n18Nvbls_Hd_-L4Xn-w-aQpyeXw&s=10"> 
@@ -69,7 +69,7 @@
                     <tr>
                         <th>seven</th>
                         <th>gash bell</th>
-                        <th>brooklyn nine-nine  </th>
+                        <th>brooklyn nine-nine </th>
 
                     </tr>
                     <tr>
@@ -92,7 +92,7 @@
         </section>
 
 
-    <section  id="formulario">
+        <section  id="formulario">
             <h2> formulario para colocar o seu top 4 serie,filmes,anime </h2>
 
             <form>
@@ -108,9 +108,9 @@
                     <label for="audiovisual">audiovisual:</label>
                     <select id="audiovisual" name="audiovisual">
                         <option value="">Selecione</option>
-                        <option value="">anime</option>
-                        <option value="amadora">serie</option>
-                        <option value="esportiva">filme</option>
+                        <option value="anime">anime</option>
+                        <option value="serie">serie</option>
+                        <option value="filme">filme</option>
                     </select>
                 </p>
                 <p>
