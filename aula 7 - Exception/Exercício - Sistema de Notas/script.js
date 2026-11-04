@@ -22,9 +22,17 @@ botao.addEventListener("click",function(){
         }
          
         const notaFinal = (numero1 + numero2 + numero3) / 3
+        
+        if (notaFinal >= 7){
+            resultado.textContent = "Você esta aprovado e sua nota é " + notaFinal;
+        }else if (notaFinal >= 5 && notaFinal <7){
+            resultado.textContent = "Você esta recuperação e sua nota é " + notaFinal;
+        }else {
+            resultado.textContent = "Você esta reprovado e sua nota é " + notaFinal;
+        }
     } catch (erro) {
         resultado.textContent = "Erro: " + erro.message;
     }finally{
-        finalizacao.textContent = "Verificaçaõ finalizada." + notaFinal;
+        finalizacao.textContent = "Verificaçaõ finalizada.";
     }
 })
